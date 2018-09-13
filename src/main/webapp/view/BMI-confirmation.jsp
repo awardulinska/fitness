@@ -7,7 +7,7 @@
 </head>
 <body>
 
-${client.name} twoje BMI to ${client.bmi}
+${client.firstName} twoje BMI to ${client.bmi}
 
 <br><br>
 

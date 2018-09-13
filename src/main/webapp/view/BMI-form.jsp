@@ -9,7 +9,7 @@
 
 <form:form action="processForm" modelAttribute="client">
 
-    Twoje imię: <form:input path="name"/>
+    Twoje imię: <form:input path="firstName"/>
     <br><br>
 
     Wzrost w metrach <form:input path="height"/>
