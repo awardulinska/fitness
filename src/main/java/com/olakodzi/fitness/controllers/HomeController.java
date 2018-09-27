@@ -1,7 +1,7 @@
 package com.olakodzi.fitness.controllers;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class HomeController {
@@ -10,5 +10,7 @@ public class HomeController {
     public String showPage() {
         return "/view/main-menu.jsp";
     }
+
+
 
 }
