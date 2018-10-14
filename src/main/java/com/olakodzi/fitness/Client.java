@@ -23,6 +23,10 @@ public class Client implements Serializable{
     private double weight;
     private double bmi;
 
+    public Long getId() {
+        return id;
+    }
+
     public String getFirstName() {
         return firstName;
     }

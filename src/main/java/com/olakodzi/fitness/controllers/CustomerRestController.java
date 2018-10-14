@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-public class ClientController {
+public class CustomerRestController {
 
     @Autowired
     FitnessRepository fitnessRepository;
